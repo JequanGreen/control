@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<!--
+CREATED BY Jequan Green
+10Jan2022
+for CSC102 class
+jeqgreen@uat.edu
+-->
+
+<head>
+    <script src="code.js"></script>
+    <script src="loginCode.js"></script>
+    <link rel="stylesheet" href="loginStyle.css">
+    <!--This is the had portion, it is behind the scenes...-->
+    <title>
+        Jequan Green UATSpace Page
+    </title>
+    <style>
+        body {
+            background-color: purple;
+        }
+         </style>
+</head>
+
+<body>
+    <img src="UATspaceLogo-1.jpg">
+    <h1>UAT Space program</h1>
+    <p>Test of paragraph tags</p>
+    <script>
+        document.write("This is a test of the document.write function");
+        // alert("test of alert");
+    </script>
+    <br>
+    <br>
+    <div id="blastOffText">Blastoff Status will be presented here</div>
+    <br>
+    <buttom onclick="testCtDown();">
+        Start
+    </buttom> 
+    
+    <buttom>
+        Stop
+    </buttom>
+    <br>
+    <br>
+    <h2>Let's play Craps!!!</h2>
+    <div id="CrapsRes">Craps Result</div>
+    <div id="die1Res">die1 Result</div>
+    <div id="die2Res">die2 Result</div>
+    <div id="sumRes">sum Result</div>
+    <button onclick="platCraps();">Play Craps</button>
+    <br>
+    Number of wins: <div id="wins">0</div>
+    Number of losses: <div id="losses">0</div>
+    Number of ties: <div id="ties">0</div>
+
+    <script>
+        // var docText = "This is the contents of my docText variable";
+        // var addText = "and i like it!";
+        document.write(docText + " " + addText);
+    </script>
+    
+
+</body>
+
+</html>
